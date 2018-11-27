@@ -1,0 +1,6 @@
+D:\Applications\SCM\PartnerIntegration\lib\crypto\bin\x86\Debug\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\crypto\bin\x86\Debug\BouncyCastle.pdb
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\x86\Debug\BouncyCastle.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\x86\Debug\BouncyCastle.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\x86\Debug\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\x86\Debug\BouncyCastle.pdb

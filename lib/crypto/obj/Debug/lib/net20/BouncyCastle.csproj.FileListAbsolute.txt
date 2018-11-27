@@ -1,0 +1,12 @@
+D:\Applications\SCM\PartnerIntegration\lib\crypto\bin\Debug\lib\net20\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\crypto\bin\Debug\lib\net20\BouncyCastle.pdb
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\bin\Debug\lib\net20\BouncyCastle.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\bin\Debug\lib\net20\BouncyCastle.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\crypto\obj\Debug\lib\net20\BouncyCastle.pdb
