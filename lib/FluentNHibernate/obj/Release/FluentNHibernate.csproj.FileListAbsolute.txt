@@ -1,0 +1,16 @@
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\FluentNHibernate.XML
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\FluentNHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\FluentNHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Iesi.Collections.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\NHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Remotion.Linq.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Antlr3.Runtime.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\NHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Iesi.Collections.xml
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Remotion.Linq.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\Release\Remotion.Linq.xml
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\Release\FluentNHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\Release\FluentNHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\Release\FluentNHibernate.csprojAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\Release\FluentNHibernate.csproj.CoreCompileInputs.cache
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\Release\FluentNHibernate.csproj.CopyComplete

@@ -1,0 +1,8 @@
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\bin\Release\net40\QRCoder.dll
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\bin\Release\net40\QRCoder.pdb
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\bin\Release\net40\UnityEngine.dll
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\obj\Release\QRCoder.dll
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\obj\Release\QRCoder.pdb
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\obj\Release\QRCoder.NET40.csprojAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\obj\Release\QRCoder.NET40.csproj.CoreCompileInputs.cache
+X:\simpli meds\Simply Meds\portal\lib\QRCoder\obj\Release\QRCoder.NET40.csproj.CopyComplete

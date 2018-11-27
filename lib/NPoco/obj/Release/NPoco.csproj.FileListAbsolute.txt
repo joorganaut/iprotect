@@ -1,0 +1,6 @@
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\Release\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\Release\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Release\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Release\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Release\NPoco.csprojAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Release\NPoco.csproj.CoreCompileInputs.cache

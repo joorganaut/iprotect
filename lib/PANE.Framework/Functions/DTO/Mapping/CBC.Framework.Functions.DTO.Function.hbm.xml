@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="AXAMansard.Framework.Functions.DTO.Function, AXAMansard.Framework" table="[Functions]">
+    <id name="ID" column="ID" type="Int64" unsaved-value="0">
+      <generator class="sequence">
+        <param name="sequence">SQ_FUNCTION</param>
+      </generator>
+    </id>
+    <property name="Name" column="Name" type="String" />
+    <property name="Description" column="Description" type="String" />
+    <property name="RoleName" column="RoleName" type="String" />
+    <property name="HasSubRoles" column="HasSubRoles" type="Boolean" />
+    <many-to-one name="ParentFunction" column="ParentFunctionID" class="AXAMansard.Framework.Functions.DTO.Function, AXAMansard.Framework" />
+    <property name="ApplicationID" type="Int64" column="ApplicationID"/>
+    <!--<bag name="ApprovalConfigurations" inverse="true" lazy="false">
+      <key column="MakerRole"/>
+      <one-to-many class="AXAMansard.Framework.Approval.DTO.ApprovalConfiguration, AXAMansard.Framework"/>
+    </bag>-->
+    <property name="IsApprovable" column="IsApprovable" type="Boolean"/>
+    <!--<one-to-one name="ApprovalConfigurationUpdate" property-ref="MakerRole" class="AXAMansard.Framework.Approval.DTO.ApprovalConfiguration, AXAMansard.Framework" />-->
+    <!-- <bag inverse="true" name="TheApprovalConfigurations" generic="true">
+      <key column="MakerRole"></key>
+      <one-to-many class="AXAMansard.Framework.Approval.DTO.ApprovalConfiguration, AXAMansard.Framework" />
+    </bag>-->
+
+    <property name="IsDefault" column="IsDefault" type="Boolean" />
+    <property name="UserCategory" column="UserCategory" type="AXAMansard.Framework.Functions.DTO.UserCategory, AXAMansard.Framework" />
+  </class>
+</hibernate-mapping>

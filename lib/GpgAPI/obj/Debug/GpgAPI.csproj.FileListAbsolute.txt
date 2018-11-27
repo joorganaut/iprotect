@@ -1,0 +1,16 @@
+D:\Demos\gpgapi-21563\GpgAPI\GpgAPI\bin\Debug\GpgApi.dll
+D:\Demos\gpgapi-21563\GpgAPI\GpgAPI\bin\Debug\GpgApi.pdb
+D:\Demos\gpgapi-21563\GpgAPI\GpgAPI\obj\Debug\GpgAPI.csprojResolveAssemblyReference.cache
+D:\Demos\gpgapi-21563\GpgAPI\GpgAPI\obj\Debug\GpgApi.dll
+D:\Demos\gpgapi-21563\GpgAPI\GpgAPI\obj\Debug\GpgApi.pdb
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\bin\Debug\GpgApi.dll
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\bin\Debug\GpgApi.pdb
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgAPI.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgApi.dll
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgApi.pdb
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgAPI.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\bin\Debug\GpgApi.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\bin\Debug\GpgApi.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgAPI.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgApi.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Debug\GpgApi.pdb

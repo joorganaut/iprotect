@@ -1,0 +1,73 @@
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll.config
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.pdb
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\NHibernate.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\NHibernate.pdb
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\bin\x64\Debug\NHibernate.xml
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll.config
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.xml
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll.config
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\bin\x64\Debug\NHibernate.xml
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csproj.CopyComplete
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.pdb
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll.config
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.pdb
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\NHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\NHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\NHibernate.xml
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.pdb
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\FluentNHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\Iesi.Collections.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\FluentNHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\FluentNHibernate.xml
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\HibernatingRhinos.Profiler.Appender.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\Microsoft.Web.Infrastructure.dll
+X:\simpli meds\Simply Meds\portal\lib\PANE.Framework\bin\x64\Debug\WebActivatorEx.dll
+X:\3Kings\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csproj.CoreCompileInputs.cache
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll.config
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\AXAMansard.Framework.pdb
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\FluentNHibernate.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Iesi.Collections.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\NHibernate.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Remotion.Linq.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Remotion.Linq.EagerFetching.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\WebActivatorEx.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Microsoft.Web.Infrastructure.dll
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Antlr3.Runtime.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\FluentNHibernate.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Iesi.Collections.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\NHibernate.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Remotion.Linq.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Remotion.Linq.EagerFetching.xml
+X:\3Kings\lib\PANE.Framework\bin\x64\Debug\Microsoft.Web.Infrastructure.xml
+X:\3Kings\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csproj.CopyComplete
+X:\3Kings\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.dll
+X:\3Kings\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.pdb
+X:\3Kings\lib\PANE.Framework\obj\x64\Debug\AXAMansard.Framework.csprojAssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\bin\Release\TuesPechkin.dll
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\bin\Release\TuesPechkin.pdb
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.Properties.Resources.resources
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.csproj.GenerateResource.Cache
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.dll
+D:\Applications\SCM\PartnerIntegration\lib\Pechkin\obj\Release\TuesPechkin.pdb

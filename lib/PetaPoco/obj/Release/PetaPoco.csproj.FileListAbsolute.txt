@@ -1,0 +1,6 @@
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\bin\Release\PetaPoco.dll.config
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\bin\Release\PetaPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\bin\Release\PetaPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\obj\Release\PetaPoco.csprojResolveAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\obj\Release\PetaPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\PetaPoco\obj\Release\PetaPoco.pdb

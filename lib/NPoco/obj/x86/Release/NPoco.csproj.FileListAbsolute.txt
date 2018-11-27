@@ -1,0 +1,5 @@
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\Release\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\Release\NPoco.pdb
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x86\Release\NPoco.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x86\Release\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x86\Release\NPoco.pdb

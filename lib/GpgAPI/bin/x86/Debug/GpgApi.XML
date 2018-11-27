@@ -1,0 +1,1353 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GpgApi</name>
+    </assembly>
+    <members>
+        <member name="T:GpgApi.Email">
+            <summary>
+            Represents a valid email address.
+            This class is immutable.
+            </summary>
+        </member>
+        <member name="M:GpgApi.Email.IsValid(System.String)">
+            <summary>
+            Determines whether an email address is valid or not.
+            </summary>
+            <param name="email">The email address to check.</param>
+            <returns>true if the email address is valid; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.Email"/> class to the specified email.
+            </summary>
+            <param name="email">An email address.</param>
+            <exception cref="T:GpgApi.InvalidEmailAddressException"><paramref name="email"/> is not a valid email address.</exception>
+        </member>
+        <member name="M:GpgApi.Email.ToString">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current email address as a string.</returns>
+        </member>
+        <member name="M:GpgApi.Email.GetHashCode">
+            <summary>
+            Returns the hash code for this <see cref="T:GpgApi.Email"/>.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:GpgApi.Email.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> equals the current <see cref="T:GpgApi.Email"/>.
+            </summary>
+            <param name="obj">The object to compare with the current <see cref="T:GpgApi.Email"/>.</param>
+            <returns>true if the specified Object equals the current Email; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.Equals(GpgApi.Email)">
+            <summary>
+            Determines whether the specified <see cref="T:GpgApi.Email"/> equals the current <see cref="T:GpgApi.Email"/>.
+            </summary>
+            <param name="other">The Email to compare with the current <see cref="T:GpgApi.Email"/>.</param>
+            <returns>true if the specified Email equals the current Email; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.Equals(GpgApi.Email,GpgApi.Email)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Email"/>s are equals.
+            </summary>
+            <param name="email1">The first Email to compare</param>
+            <param name="email2">The second Email to compare</param>
+            <returns>true if the specified Emails are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.op_Equality(GpgApi.Email,GpgApi.Email)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Email"/>s are equals.
+            </summary>
+            <param name="email1">The first Email to compare</param>
+            <param name="email2">The second Email to compare</param>
+            <returns>true if the specified Emails are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.op_Inequality(GpgApi.Email,GpgApi.Email)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Email"/>s are differents.
+            </summary>
+            <param name="email1">The first Email to compare</param>
+            <param name="email2">The second Email to compare</param>
+            <returns>true if the specified Emails are differents; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Email.op_Implicit(GpgApi.Email)~System.String">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current email address as a string.</returns>
+        </member>
+        <member name="T:GpgApi.GpgDateTime">
+            <summary>
+            Represents a gpg datetime.
+            This class is immutable.
+            
+            Every public keys has an expiration date.
+            This date can be either a datetime or "unlimited".
+            Unlimited means that the key will never expire.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgDateTime.Unlimited">
+            <summary>
+            Represents a "unlimited" datetime.
+            </summary>
+        </member>
+        <member name="P:GpgApi.GpgDateTime.DateTime">
+            <summary>
+            Gets the DateTime component of this instance.
+            </summary>
+        </member>
+        <member name="P:GpgApi.GpgDateTime.IsUnlimited">
+            <summary>
+            Gets the boolean that indicates whether the datetime represented by this instance is "unlimited".
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgDateTime"/> class.
+            By default, the new instance is an Unlimited datetime.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.#ctor(System.DateTime)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgDateTime"/> class to the specified datetime.
+            </summary>
+            <param name="datetime">The datetime.</param>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.ToString">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current datetime as a string.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.GetHashCode">
+            <summary>
+            Returns the hash code for this <see cref="T:GpgApi.GpgDateTime"/>.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> equals the current <see cref="T:GpgApi.GpgDateTime"/>.
+            </summary>
+            <param name="obj">The object to compare with the current <see cref="T:GpgApi.GpgDateTime"/>.</param>
+            <returns>true if the specified Object equals the current GpgDateTime; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.Equals(GpgApi.GpgDateTime)">
+            <summary>
+            Determines whether the specified <see cref="T:GpgApi.GpgDateTime"/> equals the current <see cref="T:GpgApi.GpgDateTime"/>.
+            </summary>
+            <param name="other">The GpgDateTime to compare with the current <see cref="T:GpgApi.GpgDateTime"/>.</param>
+            <returns>true if the specified GpgDateTime equals the current GpgDateTime; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.Equals(GpgApi.GpgDateTime,GpgApi.GpgDateTime)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.GpgDateTime"/>s are equals.
+            </summary>
+            <param name="gpgDateTime1">The first GpgDateTime to compare</param>
+            <param name="gpgDateTime2">The second GpgDateTime to compare</param>
+            <returns>true if the specified GpgDateTimes are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.op_Equality(GpgApi.GpgDateTime,GpgApi.GpgDateTime)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.GpgDateTime"/>s are equals.
+            </summary>
+            <param name="gpgDateTime1">The first GpgDateTime to compare</param>
+            <param name="gpgDateTime2">The second GpgDateTime to compare</param>
+            <returns>true if the specified GpgDateTimes are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.GpgDateTime.op_Inequality(GpgApi.GpgDateTime,GpgApi.GpgDateTime)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.GpgDateTime"/>s are differents.
+            </summary>
+            <param name="gpgDateTime1">The first GpgDateTime to compare</param>
+            <param name="gpgDateTime2">The second GpgDateTime to compare</param>
+            <returns>true if the specified GpgDateTimes are differents; otherwise false.</returns>
+        </member>
+        <member name="T:GpgApi.Name">
+            <summary>
+            Represents a valid name.
+            This class is immutable.
+            </summary>
+        </member>
+        <member name="M:GpgApi.Name.IsValid(System.String)">
+            <summary>
+            Determines whether a name is valid or not.
+            </summary>
+            <param name="name">The name to check.</param>
+            <returns>true if the name is valid; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.Name"/> class to the specified name.
+            </summary>
+            <param name="name">A name.</param>
+            <exception cref="T:GpgApi.InvalidNameException"><paramref name="name"/> is not a valid name.</exception>
+        </member>
+        <member name="M:GpgApi.Name.ToString">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current name as a string.</returns>
+        </member>
+        <member name="M:GpgApi.Name.GetHashCode">
+            <summary>
+            Returns the hash code for this <see cref="T:GpgApi.Name"/>.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:GpgApi.Name.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> equals the current <see cref="T:GpgApi.Name"/>.
+            </summary>
+            <param name="obj">The object to compare with the current <see cref="T:GpgApi.Name"/>.</param>
+            <returns>true if the specified Object equals the current Name; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.Equals(GpgApi.Name)">
+            <summary>
+            Determines whether the specified <see cref="T:GpgApi.Name"/> equals the current <see cref="T:GpgApi.Name"/>.
+            </summary>
+            <param name="other">The Name to compare with the current <see cref="T:GpgApi.Name"/>.</param>
+            <returns>true if the specified Name equals the current Name; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.Equals(GpgApi.Name,GpgApi.Name)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Name"/>s are equals.
+            </summary>
+            <param name="name1">The first Name to compare</param>
+            <param name="name2">The second Name to compare</param>
+            <returns>true if the specified Names are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.op_Equality(GpgApi.Name,GpgApi.Name)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Name"/>s are equals.
+            </summary>
+            <param name="name1">The first Name to compare</param>
+            <param name="name2">The second Name to compare</param>
+            <returns>true if the specified Names are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.op_Inequality(GpgApi.Name,GpgApi.Name)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.Name"/>s are differents.
+            </summary>
+            <param name="name1">The first Name to compare</param>
+            <param name="name2">The second Name to compare</param>
+            <returns>true if the specified Names are differents; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.Name.op_Implicit(GpgApi.Name)~System.String">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current name as a string.</returns>
+        </member>
+        <member name="T:GpgApi.SecureStringToCharArrayMarshaler">
+            http://stackoverflow.com/questions/1800695/c-sharp-securestring-question
+            Copyright (C) 2010 Douglas Day
+            All rights reserved.
+            MIT-licensed: http://www.opensource.org/licenses/mit-license.php
+        </member>
+        <member name="T:GpgApi.GpgApiException">
+            <summary>
+            This is the base class for all exception thrown by the GpgApi
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgApiException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgApiException"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgApiException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgApiException"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.GpgApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgApiException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.GpgApiException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgApiException"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.GpgInterfaceAlreadyUsed">
+            <summary>
+            This exception is thrown when the method <see cref="M:GpgApi.GpgInterface.Execute"/> is called more than one time for an instance of <see cref="T:GpgApi.GpgInterface"/>.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgInterfaceAlreadyUsed.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgInterfaceAlreadyUsed"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgInterfaceAlreadyUsed.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgInterfaceAlreadyUsed"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.GpgInterfaceAlreadyUsed.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgInterfaceAlreadyUsed"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.GpgInterfaceAlreadyUsed.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgInterfaceAlreadyUsed"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.InvalidFingerPrintException">
+            <summary>
+            The exception is thrown when a new instance of <see cref="T:GpgApi.FingerPrint"/> is initialized with an invalid fingerprint.
+            </summary>
+            <remarks>
+            To avoid this exception you can determine whether the fingerprint you want to use is valid with the static method <see cref="M:GpgApi.FingerPrint.IsValid(System.String)"/>.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.InvalidFingerPrintException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidFingerPrintException"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.InvalidFingerPrintException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidFingerPrintException"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.InvalidFingerPrintException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidFingerPrintException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.InvalidFingerPrintException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidFingerPrintException"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.InvalidEmailAddressException">
+            <summary>
+            The exception is thrown when a new instance of <see cref="T:GpgApi.Email"/> is initialized with an invalid email address.
+            </summary>
+            <remarks>
+            To avoid this exception you can determine whether the email address you want to use is valid with the static method <see cref="M:GpgApi.Email.IsValid(System.String)"/>.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.InvalidEmailAddressException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidEmailAddressException"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.InvalidEmailAddressException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidEmailAddressException"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.InvalidEmailAddressException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidEmailAddressException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.InvalidEmailAddressException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidEmailAddressException"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.KeyId">
+            <summary>
+            Represents a key id.
+            This class is immutable.
+            </summary>
+        </member>
+        <member name="M:GpgApi.KeyId.IsValid(System.String)">
+            <summary>
+            Determines whether a key id is valid or not.
+            </summary>
+            <param name="keyId">The keyd id to check.</param>
+            <returns>true if the key id is valid; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.KeyId"/> class to the specified keyid.
+            </summary>
+            <param name="keyId">A key id.</param>
+            <exception cref="T:GpgApi.InvalidKeyIdException"><paramref name="keyId"/> is not a valid key id.</exception>
+        </member>
+        <member name="M:GpgApi.KeyId.ToString">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current key id as a string.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.GetHashCode">
+            <summary>
+            Returns the hash code for this <see cref="T:GpgApi.KeyId"/>.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> equals the current <see cref="T:GpgApi.KeyId"/>.
+            </summary>
+            <param name="obj">The object to compare with the current <see cref="T:GpgApi.KeyId"/>.</param>
+            <returns>true if the specified Object equals the current KeyId; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.Equals(GpgApi.KeyId)">
+            <summary>
+            Determines whether the specified <see cref="T:GpgApi.KeyId"/> equals the current <see cref="T:GpgApi.KeyId"/>.
+            </summary>
+            <param name="other">The KeyId to compare with the current <see cref="T:GpgApi.KeyId"/>.</param>
+            <returns>true if the specified KeyId equals the current KeyId; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.Equals(GpgApi.KeyId,GpgApi.KeyId)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.KeyId"/>s are equals.
+            </summary>
+            <param name="keyId1">The first KeyId to compare</param>
+            <param name="keyId2">The second KeyId to compare</param>
+            <returns>true if the specified KeyIds are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.op_Equality(GpgApi.KeyId,GpgApi.KeyId)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.KeyId"/>s are equals.
+            </summary>
+            <param name="keyId1">The first KeyId to compare</param>
+            <param name="keyId2">The second KeyId to compare</param>
+            <returns>true if the specified KeyIds are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.op_Inequality(GpgApi.KeyId,GpgApi.KeyId)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.KeyId"/>s are differents.
+            </summary>
+            <param name="keyId1">The first KeyId to compare</param>
+            <param name="keyId2">The second KeyId to compare</param>
+            <returns>true if the specified KeyIds are differents; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.KeyId.op_Implicit(GpgApi.KeyId)~System.String">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current key id as a string.</returns>
+        </member>
+        <member name="T:GpgApi.InvalidKeyIdException">
+            <summary>
+            The exception is thrown when a new instance of <see cref="T:GpgApi.KeyId"/> is initialized with an invalid key id.
+            </summary>
+            <remarks>
+            To avoid this exception you can determine whether the key id you want to use is valid with the static method <see cref="M:GpgApi.KeyId.IsValid(System.String)"/>.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.InvalidKeyIdException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidKeyIdException"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.InvalidKeyIdException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidKeyIdException"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.InvalidKeyIdException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidKeyIdException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.InvalidKeyIdException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidKeyIdException"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.InvalidNameException">
+            <summary>
+            The exception is thrown when a new instance of <see cref="T:GpgApi.Name"/> is initialized with an invalid name.
+            </summary>
+            <remarks>
+            To avoid this exception you can determine whether the name you want to use is valid with the static method <see cref="M:GpgApi.Name.IsValid(System.String)"/>.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.InvalidNameException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidNameException"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.InvalidNameException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidNameException"/> class with a specified error message.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+        </member>
+        <member name="M:GpgApi.InvalidNameException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidNameException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data. </param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:GpgApi.InvalidNameException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.InvalidNameException"/> class with a specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:GpgApi.GpgChangeOwnerTrust">
+            <summary>
+            Changes the owner trust of a key.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgChangeOwnerTrust.#ctor(GpgApi.KeyId,GpgApi.KeyOwnerTrust)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgChangeOwnerTrust"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="ownerTrust"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgDecrypt">
+            <summary>
+            Decrypts a file and checks the signature (if signed).
+            </summary>
+            <remarks>
+            Here is the list of <see cref="T:GpgApi.GpgInterfaceMessage"/> used by this class.
+            <list type="bullet">
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.BeginDecryption"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.EndDecryption"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.DecryptionOk"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.DecryptionFailed"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.NoSecretKey"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.NoPublicKey"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.DataError"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.InvalidFileName"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.FileNotFound"/></term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgDecrypt.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgDecrypt"/> class.
+            </summary>
+            <param name="encryptedFileName"></param>
+            <param name="decryptedFileName"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgDeleteUserId">
+            <summary>
+            Can be used to delete either a photo or a userinfo.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgDeleteUserId.#ctor(GpgApi.KeyId,System.UInt32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgDeleteUserId"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="index"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceStatus.Started">
+            <summary>
+            Process started
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceStatus.Processing">
+            <summary>
+            Process is currently processing, see <see cref="T:GpgApi.GpgInterfaceMessage"/> for more information
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.None">
+            <summary>
+            This is the default value.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.Aborted">
+            <summary>
+            The user aborted the operation by using the method <see cref="M:GpgApi.GpgInterface.Abort"/>.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.BadPassphrase">
+            <summary>
+            The user did not enter a good passphrase.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.FileNotFound">
+            <summary>
+            The specified file was not found.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.InvalidFileName">
+            <summary>
+            The file's path is not valid.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.InvalidImageFormat">
+            <summary>
+            The image is not a jpeg image (the only format supported by GPG)
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.BeginDecryption">
+            <summary>
+            The decryption started.
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.EndDecryption">
+            <summary>
+            The decryption finished
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.GeneratingPrimeNumbers">
+            <summary>
+            The generate key method is generating prime numbers
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.GeneratingDsaKey">
+            <summary>
+            The generate key method is generating a DSA key
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.GeneratingELGamalKey">
+            <summary>
+            The generate key method is generating a ElGamal key
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.NeedEntropy">
+            <summary>
+            The generate key method is waiting for entropy
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.SizeTooSmall">
+            <summary>
+            The size of the key is too small
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.SizeTooBig">
+            <summary>
+            The size of the key is too big
+            </summary>
+        </member>
+        <member name="F:GpgApi.GpgInterfaceMessage.KeyNotCreated">
+            <summary>
+            The key has not been created because of an error
+            </summary>
+        </member>
+        <member name="T:GpgApi.GpgExportKey">
+            <summary>
+            Exports a key to a string.
+            </summary>
+            <remarks>
+            The exported key is "armored", so you can copy/past the export to an email for example.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgExportKey.#ctor(GpgApi.KeyId,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgExportKey"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="privateKey"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgImportKey">
+            <summary>
+            Imports a key from either a file or from a keyserver.
+            If a filename is specified then the key will be imported from that file;
+            otherwise it is imported from the keyserver (the keyid must be specified in that case).
+            </summary>
+            <remarks>
+            Here is the list of <see cref="T:GpgApi.GpgInterfaceMessage"/> used by this class.
+            <list type="bullet">
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.FileNotFound"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.DataError"/></term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgImportKey.#ctor(GpgApi.KeyId,System.Collections.Generic.IEnumerable{System.Uri})">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgImportKey"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="servers"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="M:GpgApi.GpgImportKey.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgImportKey"/> class.
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="T:GpgApi.GpgSign">
+            <summary>
+            Signs a file.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgSign.#ctor(GpgApi.KeyId,System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="signatureKeyId"></param>
+            <param name="fileName"></param>
+            <param name="signedFileName"></param>
+            <param name="armored"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgVerifySignature">
+            <summary>
+            Verifies a file's signature.
+            </summary>
+        </member>
+        <member name="M:GpgApi.KeySignature.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.KeySignature"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.KeyPhoto.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.KeyPhoto"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.Utils.KillByProcessId(System.Int32)">
+            <summary>
+            Kills a process and all processes started by this process (complete subtree).
+            </summary>
+            <param name="processId">The PID of the process to kill.</param>
+        </member>
+        <member name="M:GpgApi.Utils.EscapePath(System.String)">
+            <summary>
+            Escapes a path before using it as argument in a command line.
+            </summary>
+            <param name="path">The path to escape.</param>
+            <returns>The escaped path.</returns>
+        </member>
+        <member name="M:GpgApi.Utils.IsJpegImage(System.String)">
+            <summary>
+            Checks whether an image is a jpeg image or not.
+            </summary>
+            <param name="filename">The name of the image to checks.</param>
+            <returns>True if the image is jpeg; otherwise it returns false.</returns>
+        </member>
+        <member name="M:GpgApi.Utils.ConvertTimestamp(System.Double)">
+            <summary>
+            Method for converting a UNIX timestamp to a regular
+            System.DateTime value (and also to the current local time)
+            </summary>
+            <param name="timestamp">value to be converted</param>
+            <returns>converted DateTime in string format</returns>
+        </member>
+        <member name="M:GpgApi.Utils.SplitUserInfo(System.String,GpgApi.Name@,GpgApi.Email@,System.String@)">
+            <summary>
+            Gpg uses this format:
+            "User Name (user comment) &lt;username@username.com&gt;"
+            This method splits this string and returns each parts separately.
+            </summary>
+        </member>
+        <member name="M:GpgApi.KeyUserInfo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.KeyUserInfo"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgConvert.ToId(GpgApi.KeyAlgorithm)">
+            <summary>
+            For more information, see gpg source code, file keygen.c line 1518.
+            </summary>
+            <remarks>
+            GPG does not accept a "None" algorithm, so RSA is used by default.
+            But you should not call this function with the "None" algorithm.
+            </remarks>
+        </member>
+        <member name="T:GpgApi.CipherAlgorithm">
+            <summary>
+            Specifies the algorithm to be used to encrypt data.
+            Those algorithms are symmetrics.
+            </summary>
+            <remarks>
+            IDEA is not implemented in GPG because this algorithm is patented; more information here http://www.gnupg.org/faq/why-not-idea.en.html
+            </remarks>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.None">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.ThreeDes">
+            <summary>
+            Encrypt using the 3DES algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Cast5">
+            <summary>
+            Encrypt using the Cast 5 (also named "cast 128") algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.BlowFish">
+            <summary>
+            Encrypt using the Blowfish algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Aes">
+            <summary>
+            Encrypt using the AES algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Aes192">
+            <summary>
+            Encrypt using the AES-192 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Aes256">
+            <summary>
+            Encrypt using the AES-256 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.TwoFish">
+            <summary>
+            Encrypt using the TwoFish algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Camellia128">
+            <summary>
+            Encrypt using the Camellia-128 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Camellia192">
+            <summary>
+            Encrypt using the Camellia-192 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CipherAlgorithm.Camellia256">
+            <summary>
+            Encrypt using the Camellia-256 algorithm.
+            </summary>
+        </member>
+        <member name="T:GpgApi.DigestAlgorithm">
+            <summary>
+            Specifies the algorithm to be used to hash data (when signing).
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.None">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.MD5">
+            <summary>
+            Hash using the MD5 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Sha1">
+            <summary>
+            Hash using the SHA1 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Rmd160">
+            <summary>
+            Hash using the RIPEMD-160 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Sha256">
+            <summary>
+            Hash using the SHA-256 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Sha384">
+            <summary>
+            Hash using the SHA-384 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Sha512">
+            <summary>
+            Hash using the SHA-512 algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.DigestAlgorithm.Sha224">
+            <summary>
+            Hash using the SHA-224 algorithm.
+            </summary>
+        </member>
+        <member name="T:GpgApi.KeyAlgorithm">
+            <summary>
+            Specifies the algorithm to be used to encrypt and/or sign data.
+            Those algorithms are asymmetrics.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.None">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.RsaRsa">
+            <summary>
+            Encrypt and sign data using the RSA algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.RsaEncrypt">
+            <summary>
+            Encrypt data using the RSA algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.RsaSign">
+            <summary>
+            Sign data using the RSA algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.Dsa">
+            <summary>
+            Sign data using the DSA algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.ELGamal">
+            <summary>
+            Encrypt data using the ElGamal algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyAlgorithm.DsaELGamal">
+            <summary>
+            Encrypt and sign data using the DSA/ElGamal algorithm.
+            </summary>
+        </member>
+        <member name="T:GpgApi.CompressionAlgorithm">
+            <summary>
+            Specifies the compression algorithm to be used by GPG when compressing the data.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CompressionAlgorithm.None">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CompressionAlgorithm.Zip">
+            <summary>
+            Zip algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CompressionAlgorithm.ZLib">
+            <summary>
+            ZLib algorithm.
+            </summary>
+        </member>
+        <member name="F:GpgApi.CompressionAlgorithm.BZip2">
+            <summary>
+            BZip2 algorithm.
+            </summary>
+        </member>
+        <member name="T:GpgApi.KeyOwnerTrust">
+            <summary>
+            Specifies the trust defined by the user on a public key.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyOwnerTrust.None">
+            <summary>
+            The user do not trust the key.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyOwnerTrust.Marginal">
+            <summary>
+            The user has a marginal trusta on the key.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyOwnerTrust.Full">
+            <summary>
+            The user trusts the key.
+            </summary>
+        </member>
+        <member name="F:GpgApi.KeyOwnerTrust.Ultimate">
+            <summary>
+            The user trusts the key; this is the maximum trust you can have on a key. This is the default value for the keys created by the user himself.
+            </summary>
+        </member>
+        <member name="T:GpgApi.FingerPrint">
+            <summary>
+            Represents a fingerprint.
+            This class is immutable.
+            </summary>
+        </member>
+        <member name="M:GpgApi.FingerPrint.IsValid(System.String)">
+            <summary>
+            Determines whether a fingerprint is valid or not.
+            </summary>
+            <param name="fingerPrint">The fingerprint to check.</param>
+            <returns>true if the fingerprint is valid; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.FingerPrint"/> class to the specified fingerprint.
+            </summary>
+            <param name="fingerPrint">A fingerprint</param>
+            <exception cref="T:GpgApi.InvalidFingerPrintException"><paramref name="fingerPrint"/> is not a valid fingerprint.</exception>
+        </member>
+        <member name="M:GpgApi.FingerPrint.ToString">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current fingerprint as a string.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.GetHashCode">
+            <summary>
+            Returns the hash code for this <see cref="T:GpgApi.FingerPrint"/>.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> equals the current <see cref="T:GpgApi.FingerPrint"/>.
+            </summary>
+            <param name="obj">The object to compare with the current <see cref="T:GpgApi.FingerPrint"/>.</param>
+            <returns>true if the specified Object equals the current FingerPrint; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.Equals(GpgApi.FingerPrint)">
+            <summary>
+            Determines whether the specified <see cref="T:GpgApi.FingerPrint"/> equals the current <see cref="T:GpgApi.FingerPrint"/>.
+            </summary>
+            <param name="other">The fingerprint to compare with the current <see cref="T:GpgApi.FingerPrint"/>.</param>
+            <returns>true if the specified FingerPrint equals the current FingerPrint; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.Equals(GpgApi.FingerPrint,GpgApi.FingerPrint)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.FingerPrint"/>s are equals.
+            </summary>
+            <param name="fingerPrint1">The first FingerPrint to compare</param>
+            <param name="fingerPrint2">The second FingerPrint to compare</param>
+            <returns>true if the specified FingerPrints are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.op_Equality(GpgApi.FingerPrint,GpgApi.FingerPrint)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.FingerPrint"/>s are equals.
+            </summary>
+            <param name="fingerPrint1">The first FingerPrint to compare</param>
+            <param name="fingerPrint2">The second FingerPrint to compare</param>
+            <returns>true if the specified FingerPrints are equals; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.op_Inequality(GpgApi.FingerPrint,GpgApi.FingerPrint)">
+            <summary>
+            Determines whether two <see cref="T:GpgApi.FingerPrint"/>s are differents.
+            </summary>
+            <param name="fingerPrint1">The first FingerPrint to compare</param>
+            <param name="fingerPrint2">The second FingerPrint to compare</param>
+            <returns>true if the specified FingerPrints are differents; otherwise false.</returns>
+        </member>
+        <member name="M:GpgApi.FingerPrint.op_Implicit(GpgApi.FingerPrint)~System.String">
+            <summary>
+            Converts the value of this instance to a <see cref="T:System.String"/>.
+            </summary>
+            <returns>The current fingerprint as a string.</returns>
+        </member>
+        <member name="T:GpgApi.GpgAddPhoto">
+            <summary>
+            Adds a photo to the specified key.
+            </summary>
+            <remarks>
+            The format of the photo must be Jpeg (because GPG accepts only jpeg).
+            GPG can't download remote files (http://..., ftp://..., etc.); so the path of the file must be a local file.
+            If the photo is too big (in KB), this action method will NOT ask for a confirmation.
+            So you can resize the image before adding it to the key.
+            <br/><br/>
+            Here is the list of <see cref="T:GpgApi.GpgInterfaceMessage"/> used by this class.
+            <list type="bullet">
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.FileNotFound"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.InvalidImageFormat"/></term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgAddPhoto.#ctor(GpgApi.KeyId,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgAddPhoto"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="photoPath"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgAddUserInfo">
+            <summary>
+            Adds a new user info to a key.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgAddUserInfo.#ctor(GpgApi.KeyId,GpgApi.Name,GpgApi.Email,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgAddUserInfo"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="name"></param>
+            <param name="email"></param>
+            <param name="comment"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgChangeDisable">
+            <summary>
+            Changes the status of a key from enable to disable and vice versa.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgChangeDisable.#ctor(GpgApi.KeyId,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgChangeDisable"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="disable"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgChangeExpiration">
+            <summary>
+            Changes the expiration date of a key.
+            TODO, tester cette méthode et voir si donner une date dans le passé est autorisé.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgChangeExpiration.#ctor(GpgApi.KeyId,System.DateTime)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgChangeExpiration"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="expirationDate"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgChangePassword">
+            <summary>
+            Changes a key's password.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgChangePassword.#ctor(GpgApi.KeyId)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgChangePassword"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgChangePrimaryUserInfo">
+            <summary>
+            Defines a specified user info as the primary user info of a key.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgChangePrimaryUserInfo.#ctor(GpgApi.KeyId,System.UInt32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgChangePrimaryUserInfo"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="index"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgDeleteKeys">
+            <summary>
+            Removes one or multiple keys from the secret and public keyring.
+            </summary>
+            <remarks>
+            Be carefull, this method will execute without confirmation.
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgDeleteKeys.#ctor(System.Collections.Generic.IEnumerable{GpgApi.KeyId},System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgDeleteKeys"/> class.
+            </summary>
+            <param name="keyIds"></param>
+            <param name="secretOnly"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgEncrypt">
+            <summary>
+            Encrypt (and sign) a key.
+            </summary>
+            <remarks>
+            Here is the list of <see cref="T:GpgApi.GpgInterfaceMessage"/> used by this class.
+            <list type="bullet">
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.FileNotFound"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.BeginSigning"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.SignatureCreated"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.BeginEncryption"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.EndEncryption"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.SignatureKeyExpired"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.InvalidRecipient"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.InvalidFileName"/></term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgEncrypt.#ctor(System.String,System.String,System.Boolean,System.Boolean,GpgApi.KeyId,System.Collections.Generic.IEnumerable{GpgApi.KeyId},GpgApi.CipherAlgorithm)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgEncrypt"/> class.
+            </summary>
+            <param name="fileName"></param>
+            <param name="encryptedFileName"></param>
+            <param name="armored"></param>
+            <param name="hideUserIds"></param>
+            <param name="signatureKeyId"></param>
+            <param name="recipients"></param>
+            <param name="cipherAlgorithm"></param>
+        </member>
+        <member name="P:GpgApi.GpgInterface.ExePath">
+            <summary>
+            Absolute path to the GPG executable.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgInterface.Abort">
+            <summary>
+            Aborts the current action.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgInterface.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgInterface.GetSecureStringFromString(System.String)">
+            <summary>
+            This method is here just for conveniences.
+            You will lose all the benefit of a SecureString if you use this method.
+            </summary>
+            <param name="s">The string to convert.</param>
+            <returns>A SecureString that can be used in GpgApi.</returns>
+        </member>
+        <member name="T:GpgApi.GpgGenerateKey">
+            <summary>
+            Generates a new key pair and adds it to the user's keyring.
+            </summary>
+            <remarks>
+            Here is the list of <see cref="T:GpgApi.GpgInterfaceMessage"/> used by this class.
+            <list type="bullet">
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.GeneratingPrimeNumbers"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.GeneratingDsaKey"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.GeneratingELGamalKey"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.NeedEntropy"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.SizeTooSmall"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.SizeTooBig"/></term></item>
+                <item><term><see cref="F:GpgApi.GpgInterfaceMessage.KeyNotCreated"/></term></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:GpgApi.GpgGenerateKey.#ctor(GpgApi.Name,GpgApi.Email,System.String,GpgApi.KeyAlgorithm,System.UInt32,System.DateTime)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgGenerateKey"/> class.
+            </summary>
+            <param name="name"></param>
+            <param name="email"></param>
+            <param name="comment"></param>
+            <param name="algorithm"></param>
+            <param name="size"></param>
+            <param name="expirationDate"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgListPublicKeys">
+            <summary>
+            Retrieves the list of all public keys in the user's keyring.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Id">
+            <summary>
+            Id of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.FingerPrint">
+            <summary>
+            FingerPrint of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Type">
+            <summary>
+            Type of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.IsDisabled">
+            <summary>
+            Indicates whether the key is disabled or not.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Size">
+            <summary>
+            Size of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.OwnerTrust">
+            <summary>
+            Owner trust of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Trust">
+            <summary>
+            Trust of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.CreationDate">
+            <summary>
+            Creation date of the key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.ExpirationDate">
+            <summary>
+            Expiration date of the key.
+            The expiration date can also be <see cref="P:GpgApi.GpgDateTime.IsUnlimited">unlimited</see>.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Algorithm">
+            <summary>
+            Encryption algorithm used by this key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.UserInfos">
+            <summary>
+            List of user info associated to this key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.Photos">
+            <summary>
+            List of photos associated to this key.
+            </summary>
+        </member>
+        <member name="P:GpgApi.Key.SubKeys">
+            <summary>
+            List of subkeys associated to this key.
+            </summary>
+        </member>
+        <member name="M:GpgApi.Key.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.Key"/> class.
+            </summary>
+        </member>
+        <member name="M:GpgApi.KeySub.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.KeySub"/> class.
+            </summary>
+        </member>
+        <member name="T:GpgApi.GpgListSecretKeys">
+            <summary>
+            Retrieves the list of all private keys in the user's keyring.
+            </summary>
+        </member>
+        <member name="T:GpgApi.GpgLoadPhoto">
+            <summary>
+            Retrieves a photo associated to the key.
+            If the photo cannot be found <see cref="P:GpgApi.GpgLoadPhoto.Image"/> will be null.
+            </summary>
+        </member>
+        <member name="M:GpgApi.GpgLoadPhoto.#ctor(GpgApi.KeyId,System.UInt32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GpgApi.GpgLoadPhoto"/> class.
+            </summary>
+            <param name="keyId"></param>
+            <param name="index"></param>
+            <exception cref="T:System.ArgumentNullException"/>
+        </member>
+        <member name="T:GpgApi.GpgVersion">
+            <summary>
+            Gets the version of GPG.
+            </summary>
+        </member>
+    </members>
+</doc>

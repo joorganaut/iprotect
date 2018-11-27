@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TokenGenerator"
+             x:Class="TokenGenerator.MainPage">
+    <ContentPage.BackgroundColor>
+        <Color x:Name="red"/>
+    </ContentPage.BackgroundColor>
+    <StackLayout Padding="30">
+        <Label Text="Login"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Username"/>
+            <Entry Placeholder="Username"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Password"/>
+            <Entry Placeholder="Password" IsPassword="True"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Login"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

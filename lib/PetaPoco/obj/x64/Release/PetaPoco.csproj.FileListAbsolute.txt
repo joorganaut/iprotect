@@ -1,0 +1,6 @@
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\bin\x64\Release\PetaPoco.dll.config
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\bin\x64\Release\PetaPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\bin\x64\Release\PetaPoco.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\obj\x64\Release\PetaPoco.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\obj\x64\Release\PetaPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PetaPoco\obj\x64\Release\PetaPoco.pdb

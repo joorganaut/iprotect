@@ -1,0 +1,5 @@
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\bin\x64\Release\NPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\bin\x64\Release\NPoco.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Release\NPoco.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Release\NPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Release\NPoco.pdb

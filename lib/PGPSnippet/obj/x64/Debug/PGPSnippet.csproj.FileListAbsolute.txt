@@ -1,0 +1,10 @@
+X:\3Kings\lib\PGPSnippet\bin\x64\Debug\PGPSnippet.exe.config
+X:\3Kings\lib\PGPSnippet\bin\x64\Debug\PGPSnippet.exe
+X:\3Kings\lib\PGPSnippet\bin\x64\Debug\PGPSnippet.pdb
+X:\3Kings\lib\PGPSnippet\bin\x64\Debug\BouncyCastle.dll
+X:\3Kings\lib\PGPSnippet\bin\x64\Debug\BouncyCastle.pdb
+X:\3Kings\lib\PGPSnippet\obj\x64\Debug\PGPSnippet.csprojAssemblyReference.cache
+X:\3Kings\lib\PGPSnippet\obj\x64\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+X:\3Kings\lib\PGPSnippet\obj\x64\Debug\PGPSnippet.csproj.CopyComplete
+X:\3Kings\lib\PGPSnippet\obj\x64\Debug\PGPSnippet.exe
+X:\3Kings\lib\PGPSnippet\obj\x64\Debug\PGPSnippet.pdb

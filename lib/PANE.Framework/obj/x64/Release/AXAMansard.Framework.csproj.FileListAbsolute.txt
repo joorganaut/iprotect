@@ -1,0 +1,2 @@
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Release\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PANE.Framework\obj\x64\Release\AXAMansard.Framework.csproj.CoreCompileInputs.cache

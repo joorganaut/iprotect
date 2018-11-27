@@ -1,0 +1,46 @@
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\bin\Debug\PGPSnippet.exe.config
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\bin\Debug\PGPSnippet.exe
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\bin\Debug\PGPSnippet.pdb
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\obj\Debug\PGPSnippet.csprojResolveAssemblyReference.cache
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\obj\Debug\PGPSnippet.exe
+c:\users\mpallama\documents\visual studio 2013\Projects\PGPSnippet\PGPSnippet\obj\Debug\PGPSnippet.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.exe.config
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.exe
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\Debug\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\Debug\BouncyCastle.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.exe
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.exe.config
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.exe
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\bin\Debug\PGPSnippet.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\bin\Debug\BouncyCastle.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\bin\Debug\BouncyCastle.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CopyComplete
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.exe
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\PGPSnippet\obj\Debug\PGPSnippet.pdb
+X:\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.exe.config
+X:\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.exe
+X:\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.pdb
+X:\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\BouncyCastle.dll
+X:\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\BouncyCastle.pdb
+X:\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csprojAssemblyReference.cache
+X:\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+X:\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CopyComplete
+X:\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.exe
+X:\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.pdb
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.exe.config
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.exe
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\PGPSnippet.pdb
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\BouncyCastle.dll
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\bin\Debug\BouncyCastle.pdb
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csprojAssemblyReference.cache
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.csproj.CopyComplete
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.exe
+C:\Users\joorganaut\Documents\iProtect\iProtectX\lib\PGPSnippet\obj\Debug\PGPSnippet.pdb

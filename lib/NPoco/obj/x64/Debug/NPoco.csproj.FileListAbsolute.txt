@@ -1,0 +1,32 @@
+D:\Applications\SCM\Claims\AXAMansardQuickClaims\lib\NPoco\bin\x64\Debug\NPoco.dll
+D:\Applications\SCM\Claims\AXAMansardQuickClaims\lib\NPoco\bin\x64\Debug\NPoco.pdb
+D:\Applications\SCM\Claims\AXAMansardQuickClaims\lib\NPoco\obj\x64\Debug\NPoco.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\Claims\AXAMansardQuickClaims\lib\NPoco\obj\x64\Debug\NPoco.dll
+D:\Applications\SCM\Claims\AXAMansardQuickClaims\lib\NPoco\obj\x64\Debug\NPoco.pdb
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\NPoco\bin\x64\Debug\NPoco.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\NPoco\bin\x64\Debug\NPoco.pdb
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\NPoco\obj\x64\Debug\NPoco.csprojResolveAssemblyReference.cache
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\NPoco\obj\x64\Debug\NPoco.dll
+C:\Users\cnwankwonta\Source\Repos\PartnerIntegration2\lib\NPoco\obj\x64\Debug\NPoco.pdb
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\x64\Debug\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\x64\Debug\NPoco.pdb
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.pdb
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.csprojResolveAssemblyReference.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\bin\x64\Debug\NPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\bin\x64\Debug\NPoco.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\NPoco\obj\x64\Debug\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\x64\Debug\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\x64\Debug\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\x64\Debug\NPoco.csprojResolveAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\x64\Debug\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\x64\Debug\NPoco.pdb
+X:\3Kings\lib\NPoco\bin\x64\Debug\NPoco.dll
+X:\3Kings\lib\NPoco\bin\x64\Debug\NPoco.pdb
+X:\3Kings\lib\NPoco\obj\x64\Debug\NPoco.csproj.CoreCompileInputs.cache
+X:\3Kings\lib\NPoco\obj\x64\Debug\NPoco.dll
+X:\3Kings\lib\NPoco\obj\x64\Debug\NPoco.pdb
+X:\3Kings\lib\NPoco\obj\x64\Debug\NPoco.csprojAssemblyReference.cache

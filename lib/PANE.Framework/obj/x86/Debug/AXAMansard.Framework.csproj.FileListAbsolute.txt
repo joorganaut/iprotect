@@ -1,0 +1,11 @@
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\AXAMansard.Framework.dll.config
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\AXAMansard.Framework.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\AXAMansard.Framework.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\NHibernate.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\Antlr3.Runtime.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\NHibernate.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\bin\Debug\NHibernate.xml
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x86\Debug\AXAMansard.Framework.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x86\Debug\AXAMansard.Framework.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x86\Debug\AXAMansard.Framework.dll
+D:\Applications\SCM\PartnerIntegration\lib\PANE.Framework\obj\x86\Debug\AXAMansard.Framework.pdb

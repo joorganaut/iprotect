@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" schema="dbo">
+  <class name="AXAMansard.Framework.Approval.DTO.ApprovalConfiguration, AXAMansard.Framework" table="[ApprovalConfiguration]">
+    <id name="ID" type="Int64" column="ID">
+      <generator class="native" />
+    </id>
+    <property name="IsApprovable" column="IsApprovable" type="Boolean"/>
+    <property name="ApprovingRoleID" column="ApprovingRole" type="Int64" />
+    <property name="Data" column="Data" type="Int64"/>
+    <many-to-one name="ApprovingRole" column="ApprovingRole" class="AXAMansard.Framework.Functions.DTO.UserRole, AXAMansard.Framework" insert="false" update="false" />
+    <property name="MakerRole" column="MakerRole" type="Int64"/>
+    <property name="MakeRoleName" column="MakeRoleName" type="String"/>
+    <property name="ApplicationName" column="ApplicationName" type="String"/>
+    <many-to-one name="SubUserRole" column="SubUserRoleID" class="AXAMansard.Framework.Functions.DTO.UserRole, AXAMansard.Framework"/>
+  </class>
+</hibernate-mapping>

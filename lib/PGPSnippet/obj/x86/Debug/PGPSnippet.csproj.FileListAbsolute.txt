@@ -1,0 +1,9 @@
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\x86\Debug\PGPSnippet.exe.config
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\x86\Debug\PGPSnippet.exe
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\x86\Debug\PGPSnippet.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\x86\Debug\BouncyCastle.dll
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\bin\x86\Debug\BouncyCastle.pdb
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\x86\Debug\PGPSnippet.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\x86\Debug\PGPSnippet.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\x86\Debug\PGPSnippet.exe
+D:\Applications\SCM\PartnerIntegration\lib\PGPSnippet\obj\x86\Debug\PGPSnippet.pdb

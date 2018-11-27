@@ -1,0 +1,32 @@
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.csprojResolveAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.XML
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Iesi.Collections.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\NHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Antlr3.Runtime.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\NHibernate.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\NHibernate.xml
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Iesi.Collections.xml
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.pdb
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.xml
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.dll
+X:\simpli meds\Simply Meds\portal\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.pdb
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.dll
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.pdb
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\FluentNHibernate.XML
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Iesi.Collections.dll
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\NHibernate.dll
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.dll
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Antlr3.Runtime.dll
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\NHibernate.pdb
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\NHibernate.xml
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Iesi.Collections.xml
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.pdb
+X:\3Kings\lib\FluentNHibernate\bin\x64\Debug\Remotion.Linq.xml
+X:\3Kings\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.csprojAssemblyReference.cache
+X:\3Kings\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.csproj.CoreCompileInputs.cache
+X:\3Kings\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.csproj.CopyComplete
+X:\3Kings\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.dll
+X:\3Kings\lib\FluentNHibernate\obj\x64\Debug\FluentNHibernate.pdb

@@ -1,0 +1,7 @@
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\bin\x86\Debug\GpgApi.XML
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\bin\x86\Debug\GpgApi.dll
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\bin\x86\Debug\GpgApi.pdb
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\x86\Debug\GpgAPI.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\x86\Debug\GpgAPI.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\x86\Debug\GpgApi.dll
+D:\Applications\SCM\PartnerIntegration\lib\GpgAPI\obj\x86\Debug\GpgApi.pdb

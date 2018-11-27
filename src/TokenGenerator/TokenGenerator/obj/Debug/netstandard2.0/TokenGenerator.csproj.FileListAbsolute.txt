@@ -1,0 +1,12 @@
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\bin\Debug\netstandard2.0\TokenGenerator.deps.json
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\bin\Debug\netstandard2.0\TokenGenerator.dll
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\bin\Debug\netstandard2.0\TokenGenerator.pdb
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.csprojAssemblyReference.cache
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.csproj.CoreCompileInputs.cache
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.AssemblyInfoInputs.cache
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.AssemblyInfo.cs
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.dll
+C:\Users\joorganaut\Documents\iProtect\iProtectX\src\TokenGenerator\TokenGenerator\obj\Debug\netstandard2.0\TokenGenerator.pdb

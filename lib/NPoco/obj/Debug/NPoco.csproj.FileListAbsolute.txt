@@ -1,0 +1,18 @@
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\Debug\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\bin\Debug\NPoco.pdb
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\Debug\NPoco.csprojResolveAssemblyReference.cache
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\Debug\NPoco.csproj.CoreCompileInputs.cache
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\Debug\NPoco.dll
+D:\Applications\SCM\PartnerIntegration\lib\NPoco\obj\Debug\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\Debug\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\bin\Debug\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Debug\NPoco.dll
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Debug\NPoco.pdb
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Debug\NPoco.csprojAssemblyReference.cache
+X:\simpli meds\Simply Meds\portal\lib\NPoco\obj\Debug\NPoco.csproj.CoreCompileInputs.cache
+X:\iProtect\iProtectX\lib\NPoco\bin\Debug\NPoco.dll
+X:\iProtect\iProtectX\lib\NPoco\bin\Debug\NPoco.pdb
+X:\iProtect\iProtectX\lib\NPoco\obj\Debug\NPoco.csprojAssemblyReference.cache
+X:\iProtect\iProtectX\lib\NPoco\obj\Debug\NPoco.csproj.CoreCompileInputs.cache
+X:\iProtect\iProtectX\lib\NPoco\obj\Debug\NPoco.dll
+X:\iProtect\iProtectX\lib\NPoco\obj\Debug\NPoco.pdb

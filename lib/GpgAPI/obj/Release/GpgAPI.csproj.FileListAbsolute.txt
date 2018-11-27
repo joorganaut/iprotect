@@ -1,0 +1,5 @@
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\bin\Release\GpgApi.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\bin\Release\GpgApi.pdb
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Release\GpgAPI.csproj.CoreCompileInputs.cache
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Release\GpgApi.dll
+C:\Users\wbakare\source\repos\PartnerIntegration\lib\GpgAPI\obj\Release\GpgApi.pdb
